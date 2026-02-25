@@ -15,6 +15,8 @@ SELECT
     TABLE_TYPE
 FROM INFORMATION_SCHEMA.TABLES;
 
+GO;
+
 -- Retrieve all columns for a specific table (dim_customers)
 SELECT 
     COLUMN_NAME, 
