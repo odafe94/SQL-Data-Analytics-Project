@@ -69,3 +69,5 @@ SELECT
     DATEDIFF(year, MIN(birth_date), GETDATE()) oldest_age,
     DATEDIFF(year, MAX(birth_date), GETDATE()) youngest_age
 FROM gold.dim_customers;
+
+GO;
